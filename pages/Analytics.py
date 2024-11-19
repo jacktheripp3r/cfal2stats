@@ -8,7 +8,7 @@ st.title("Analytics")
 df = pd.read_csv('https://docs.google.com/spreadsheets/d/11EUKLaoZQYvCi4ghibrDgTU14oaV6HBd7YYC0Pf9imc/gviz/tq?tqx=out:csv&sheet=Sheet1')
 today_date = datetime.today().strftime('%Y-%m-%d')
 db_index = df[df['Date'] == today_date].index[0]
-df = df[:db_index]
+df = df[:db_index+1]
 del db_index
 
 
