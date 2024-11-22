@@ -5,7 +5,7 @@ remaining = datetime(2025, 5, 25, 0, 0) - datetime.today()
 
 st.title("CFA Level 2 - May'25")
 st.markdown("Bring it home.")
-st.markdown("**You got this.**")
+st.header(f"You got this.")
 st.subheader(f'Days Left for Exam: {remaining.days}', anchor=None, help=None, divider = 'red')
 
 remaining = datetime(2025, 3, 31, 0, 0) - datetime.today()
