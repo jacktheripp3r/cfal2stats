@@ -10,7 +10,7 @@ st.markdown(
     """
     <style>
     .custom-font {
-        font-size: 24px; /* Adjust font size */
+        font-size: 40px; /* Adjust font size */
     }
     </style>
     """,
