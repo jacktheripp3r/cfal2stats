@@ -11,7 +11,6 @@ st.markdown(
     <style>
     .custom-font {
         font-size: 24px; /* Adjust font size */
-        color: #4CAF50; /* Optional: Set font color */
     }
     </style>
     """,
