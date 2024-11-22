@@ -21,7 +21,7 @@ df['Day'] = df['Date'].dt.strftime('%A')
 hours_studied = round(total/60, 2)
 hours_remaining = round(250 - hours_studied, 2)
 
-st.write(f"Target: 250 Hours. Total Hours Studied: {round(total/60, 0)}.\n Hours Remaining: {hours_remaining}.")
+st.write(f"Target: 250 Hours. Total Hours Studied: {round(total/60, 2)}.\n Hours Remaining: {hours_remaining}.")
 st.write(f"You have to hit {round(hours_remaining/remaining.days, 2)} hours or {round((hours_remaining/remaining.days) * 60)} minutes everyday.")
 st.write(f"Total Time Studied: {round(total/60, 2)} Hours or {total} minutes.")
 st.write(f"Average Minutes Studied: {average}")
