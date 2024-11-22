@@ -19,7 +19,7 @@ st.markdown(
 )
 
 # Use the custom class
-st.markdown('<p class="custom-font">This is a custom font size!</p>', unsafe_allow_html=True)
+st.markdown('<p class="custom-font">Bring it home. <b>You got this.</b></p>', unsafe_allow_html=True)
 
 st.subheader(f'Days Left for Exam: {remaining.days}', anchor=None, help=None, divider = 'red')
 
