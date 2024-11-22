@@ -4,8 +4,7 @@ from datetime import datetime, date
 remaining = datetime(2025, 5, 25, 0, 0) - datetime.today()
 
 st.title("CFA Level 2 - May'25")
-st.markdown("Bring it home.")
-st.subheader(f"You got this.")
+st.subheader("Bring it home. You got this.")
 st.subheader(f'Days Left for Exam: {remaining.days}', anchor=None, help=None, divider = 'red')
 
 remaining = datetime(2025, 3, 31, 0, 0) - datetime.today()
