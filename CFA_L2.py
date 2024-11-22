@@ -4,7 +4,23 @@ from datetime import datetime, date
 remaining = datetime(2025, 5, 25, 0, 0) - datetime.today()
 
 st.title("CFA Level 2 - May'25")
-st.subheader("Bring it home. You got this.")
+
+# Inject custom CSS
+st.markdown(
+    """
+    <style>
+    .custom-font {
+        font-size: 24px; /* Adjust font size */
+        color: #4CAF50; /* Optional: Set font color */
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+# Use the custom class
+st.markdown('<p class="custom-font">This is a custom font size!</p>', unsafe_allow_html=True)
+
 st.subheader(f'Days Left for Exam: {remaining.days}', anchor=None, help=None, divider = 'red')
 
 remaining = datetime(2025, 3, 31, 0, 0) - datetime.today()
