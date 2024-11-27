@@ -6,6 +6,7 @@ st.title("Resources")
 
 st.link_button("CFAI Institute Link", "https://study.cfainstitute.org/app/cfa-program-level-ii-for-may-2025")
 st.link_button("CFA Account Link", "https://www.cfainstitute.org/account")
+st.link_button("DB Link", "https://docs.google.com/spreadsheets/d/11EUKLaoZQYvCi4ghibrDgTU14oaV6HBd7YYC0Pf9imc/edit?gid=0#gid=0")
 
 subjects = pd.read_csv('Subjects.csv')
 
